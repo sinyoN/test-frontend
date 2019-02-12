@@ -1,0 +1,89 @@
+@font-face{
+font-family: 'Open Sans Black';
+src: url("fonts/Open_Sans/OpenSans-Roboto-Black.ttf");
+
+}
+@font-face{
+font-family: 'Open Sans Bold';
+src: url("fonts/Open_Sans/OpenSans-Roboto-Bold.ttf");
+
+}
+
+body{
+	margin: 0;
+	background: #eeeeee;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+#warpper{
+	width: 100%;
+	height: 600px;
+}
+.turky{
+	width: calc(100% / 2);
+	height: 345px;
+	float: left;
+}
+.img{
+	width: 50%;
+	margin-top: 25%;
+	margin-left: 2%;
+	height: 65%;
+}
+.img1{
+	width: 50%;
+	margin-top: 25%;
+	margin-left: 48%;
+	height: 65%;
+}
+.card{
+	width: 50%;
+	margin-left: 48%;
+	height: 30%;
+	background: #fff;
+}
+.cardd{
+	width: 50%;
+	margin-left: 2%;
+	height: 30%;
+	background: #fff;
+}
+.title{
+	font-size: 16px;
+	color: #000;
+	height: 100px;
+	margin-left:10px;
+	margin-top: 0;
+	font-family: 'Open Sans Bold';
+}
+.car-title{
+	font-size: 16px;
+	color: #BBB;
+	margin-top: -70px;
+	margin-left: 10px;
+	font-family: 'Open Sans Bold';
+}
+.card-title{
+
+	font-size: 16px;
+	color: #f00;
+	width: calc(100% /2);
+	margin-left: 10px;
+	margin-top: -70px;
+	float: left;
+	font-family: 'Open Sans Bold';
+}
+
+.card-title1{
+
+	font-size: 16px;
+	color: #0f0;
+	width: calc(100% /2);
+	margin-top: -70px;
+	margin-left: 150px;
+	float: left;
+	font-family: 'Open Sans Bold';
